@@ -6,26 +6,39 @@ body {
 }
 
 main {
-    max-width: 1200px;
+    max-width: 1000px;
     min-height: 100vh;
     margin: 0 auto;
-    padding: 40px 60px;
+    padding: 50px 70px;
     box-sizing: border-box;
     background-color: white;
 }
 
 h1 {
-    margin-top: 0;
+    margin: 0 0 25px;
+    font-size: 36px;
+}
+
+h2 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+h3 {
+    margin: 0 0 8px;
+    font-size: 19px;
 }
 
 p {
-    line-height: 1.6;
+    line-height: 1.7;
+    font-size: 17px;
 }
 
 hr {
     border: 0;
     border-top: 1px solid #ddd;
-    margin: 30px 0;
+    margin: 35px 0;
 }
 
 a {
@@ -37,6 +50,35 @@ a:hover {
     text-decoration: underline;
 }
 
-li {
-    margin-bottom: 8px;
+.voltar {
+    display: inline-block;
+    margin-bottom: 25px;
+    color: #666;
+    font-size: 14px;
+}
+
+.spoiler {
+    color: #b22222;
+    border-left: 4px solid #b22222;
+    padding-left: 12px;
+}
+
+.lista-filmes {
+    padding-left: 25px;
+}
+
+.lista-filmes li {
+    margin-bottom: 10px;
+}
+
+.lista-filmes a {
+    font-size: 18px;
+}
+
+.categoria {
+    margin-bottom: 30px;
+}
+
+.categoria h3 {
+    color: #444;
 }
