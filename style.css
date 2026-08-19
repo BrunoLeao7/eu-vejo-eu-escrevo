@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    background-color: #e4e4e4;
+    font-family: Arial, sans-serif;
+    color: #222;
+}
+
+main {
+    max-width: 1200px;
+    min-height: 100vh;
+    margin: 0 auto;
+    padding: 40px 60px;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+h1 {
+    margin-top: 0;
+}
+
+p {
+    line-height: 1.6;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #ddd;
+    margin: 30px 0;
+}
+
+a {
+    color: #0645ad;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+li {
+    margin-bottom: 8px;
+}
